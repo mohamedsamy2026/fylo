@@ -15,6 +15,7 @@
 body {
   font-family: "Open Sans", sans-serif;
   height: 5000px;
+  background-color: red;
 }
 
 
@@ -47,3 +48,10 @@ body {
 ::-webkit-scrollbar-thumb:hover {
     background: rgb(3, 48, 127); 
 }
+
+
+
+/* Header Start */
+
+
+/* Header End */
