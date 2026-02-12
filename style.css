@@ -10,7 +10,17 @@
 
 body {
   font-family: "Open Sans", sans-serif;
-  height: 5000px;
+  background-color: rgb(222, 236, 251);
+}
+
+a{
+  text-decoration: none;
+  display: inline-block;
+  color: white;
+}
+
+ul{
+  list-style: none;
 }
 
 /* شكل الاسكرول */
@@ -40,6 +50,49 @@ body {
   background: rgb(3, 48, 127);
 }
 
+
+
+
 /* Header Start */
 
+header{
+  max-width: 1600px;
+  margin: auto;
+}
+
+
+header .navbar nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 170px;
+}
+
+header .navbar nav ul{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+
+header .navbar nav .logo{
+  width: 200px;
+  cursor: pointer;
+}
+
+header .navbar nav ul li a{
+  color:rgb(48, 47, 47);
+  font-size: 18px;
+  font-weight: 600;
+  transition: all 0.4s ease;
+  padding: 10px;
+  border-radius: 15px;
+    transform: translateY(10px);
+}
+
+header .navbar nav ul li a:hover{
+  background-color: #004691;
+  transform: translateY(0.5px);
+  color: white;
+}
 /* Header End */
